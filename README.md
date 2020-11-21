@@ -1,6 +1,13 @@
 # Portfolio
-- This project is the base for my future portfolio.
-- The portfolio has 3 pages which include: index, portfolio, and contact.
-- Index is the main about me page.
-- Portfolio is the page with all my porjects but is currently empty right now.
-- Contact is the page that allows whomever is interested to contact me.
+
+## Links
+[Portfolio Repository](https://github.com/jceb30198/Portfolio)
+
+[Deployed IO](https://jceb30198.github.io/Portfolio/)
+
+## Description
+- A small website that I am going to be using as my portfolio.
+
+## Future Changes
+- I would like to change the framework that I am using on the website.
+- Make the website have more functionality and actually be an interesting website to visit.
