@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <style>
-      body{
-        background-image: url("Assets/space.jpg");
-        background-size: cover;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 
-<body class="container-fluid">
+<body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="teal darken-1">
+    <div class="nav-wrapper container">
+  
+      <a class="brand-logo" href="index.html">Jack Ceballos</a>
+      
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="index.html">About Me</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="active">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
 
-            <a class="navbar-brand bg-secondary rounded-pill" href="index.html">Jack Ceballos</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-              </ul>
-            </div>
+      <!--
+        <ul class="dropdown-content" id="dropdown1">
+          <li>
+            <a href="index.html">About Me</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li class="active">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+        <a href="#" data-target="dropdown1" class="dropdown-trigger"><i class="material-icons">menu</i></a>
+      -->
+        
+    </div>
+  
+  </nav>
 
-          </nav>
-    </header>
-
-    <main class="border border-info bg-secondary m-3 p-3 col-10 mx-auto">
-      <h1 class="text-light text-center">Portfolio</h1>
-        <hr class="bg-warning"/>
+  <div class="container">
+    <h1 class="white-text">Portfolio</h1>
+    <hr class="yellow">
     <div class="row">
       <figure class="m-2 col-3 figure">
-        <img src="Assets/base.png"  class="figure-img img-fluid">
+        <img src="./Assets/Images/base.png" class="figure-img img-fluid">
         <figcaption class="text-center text-light">Mood Queue</figcaption>
         <ul class="text-light">
           <a href="https://github.com/jceb30198/Mood_Queue" class="text-light">Repository Link</a>
@@ -54,7 +61,7 @@
       </figure>
 
       <figure class="m-2 col-3 figure">
-        <img src="Assets/Beginning.png" class="figure-img img-fluid">
+        <img src="./Assets/Images/Beginning.png" class="figure-img img-fluid">
         <figcaption class="text-center text-light">Code Quiz</figcaption>
         <ul class="text-light">
           <a href="https://github.com/jceb30198/Code_Quiz" class="text-light">Repository Link</a>
@@ -63,7 +70,7 @@
       </figure>
 
       <figure class="m-2 col-3 figure">
-        <img src="Assets/first_prompt.png" class="figure-img img-fluid">
+        <img src="./Assets/Images/first_prompt.png" class="figure-img img-fluid">
         <figcaption class="text-center text-light">Password Generator</figcaption>
         <ul class="text-light">
           <a href="https://github.com/jceb30198/Password_Generator" class="text-light">Repository Link</a>
@@ -71,15 +78,16 @@
         </ul>
       </figure>
     </div>
-    </main>
-    
-    <footer class="bg-secondary border-top border-info fixed-bottom">
-      <p class="text-warning text-center">Made with Bootstrap.</p>
-    </footer>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <footer class="bg-secondary border-top border-info fixed-bottom">
+    <p class="text-warning text-center">Made with Materialize.</p>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="./Assets/JS/initialize.js"></script>
+  <div class="dropdown-overlay"></div>
 </body>
 
 </html>
