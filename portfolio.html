@@ -15,7 +15,7 @@
     <div class="nav-wrapper container">
   
       <a class="brand-logo" href="index.html">Jack Ceballos</a>
-      
+  
       <ul class="right hide-on-med-and-down">
         <li>
           <a href="index.html">About Me</a>
@@ -27,65 +27,80 @@
           <a href="portfolio.html">Portfolio</a>
         </li>
       </ul>
-
+  
       
-        <ul class="sidenav" id="sidenav">
-          <li>
-            <a href="index.html">About Me</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+      <ul class="sidenav teal lighten-1" id="slide-out">
+        <li>
+          <a href="index.html" class="white-text">About Me</a>
+        </li>
+        <li>
+          <a href="contact.html" class="white-text">Contact</a>
+        </li>
+        <li class="active">
+          <a href="portfolio.html" class="white-text">Portfolio</a>
+        </li>
+      </ul>
       
-        <a href="#" data-target="sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        
+      
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   
   </nav>
 
   <div class="container">
     <h1 class="white-text">Portfolio</h1>
-    <hr class="yellow">
+    <div class="divider yellow"></div>
     <div class="row">
-      <figure class="m-2 col-3 figure">
-        <img src="./Assets/Images/base.png" class="figure-img img-fluid">
-        <figcaption class="text-center text-light">Mood Queue</figcaption>
-        <ul class="text-light">
-          <a href="https://github.com/jceb30198/Mood_Queue" class="text-light">Repository Link</a>
-          <a href="https://jceb30198.github.io/Mood_Queue/" class="text-light">Deployed IO Link</a>
-        </ul>
-      </figure>
 
-      <figure class="m-2 col-3 figure">
-        <img src="./Assets/Images/Beginning.png" class="figure-img img-fluid">
-        <figcaption class="text-center text-light">Code Quiz</figcaption>
-        <ul class="text-light">
-          <a href="https://github.com/jceb30198/Code_Quiz" class="text-light">Repository Link</a>
-          <a href="https://jceb30198.github.io/Code_Quiz/" class="text-light">Deployed IO Link</a>
-        </ul>
-      </figure>
+      <div class="card col  s12 m4 l6 grey darken-1">
+        <div class="card-content">
+          <span class="card-title white-text">Mood Queue</span>
+          <img src="./Assets/Images/base.png" class="responsive-img">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/jceb30198/Mood_Queue" class="white-text">Repo Link</a>
+          <a href="https://jceb30198.github.io/Mood_Queue/" class="white-text">Deployed IO Link</a>
+        </div>
+      </div>
 
-      <figure class="m-2 col-3 figure">
-        <img src="./Assets/Images/first_prompt.png" class="figure-img img-fluid">
-        <figcaption class="text-center text-light">Password Generator</figcaption>
-        <ul class="text-light">
-          <a href="https://github.com/jceb30198/Password_Generator" class="text-light">Repository Link</a>
-          <a href="https://jceb30198.github.io/Password_Generator/" class="text-light">Deployed IO Link</a>
-        </ul>
-      </figure>
+      <div class="card col s12 m4 l6 grey darken-1">
+        <div class="card-content">
+          <span class="card-title white-text">Code Quiz</span>
+          <img src="./Assets/Images/Beginning.png" class="responsive-img">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/jceb30198/Code_Quiz" class="white-text">Repo Link</a>
+          <a href="https://jceb30198.github.io/Code_Quiz/" class="white-text">Deployed IO Link</a>
+        </div>
+      </div>
+
+      <div class="card col s12 m4 l6 grey darken-1">
+        <div class="card-content">
+          <span class="card-title white-text">Password Generator</span>
+          <img src="./Assets/Images/first_prompt.png" class="responsive-img">
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/jceb30198/Password_Generator" class="white-text">Repo Link</a>
+          <a href="https://jceb30198.github.io/Password_Generator/" class="white-text">Deployed IO Link</a>
+        </div>
+      </div>
+
     </div>
   </div>
 
-  <footer class="bg-secondary border-top border-info fixed-bottom">
-    <p class="text-warning text-center">Made with Materialize.</p>
+  <footer class="page-footer teal darken-1">
+    <div class="footer-copyright teal darken-1">
+      <div class="container">
+        <p>Made with Materialize.</p>
+      </div>
+    </div>
   </footer>
-  
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="./Assets/JS/initialize.js"></script>
 </body>
 
